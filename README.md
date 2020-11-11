@@ -1,1 +1,2 @@
 # sql-challenge
+Final sql-challenge work with two separate queries, one for table creation and one for data analysis of the csv files given, and a picture of the quick database diagram (QDBD) of the csv relations. This does not include the bonus for now. I might do it for extra practice, but it might end up being after the work is graded. 
