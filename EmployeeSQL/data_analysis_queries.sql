@@ -50,13 +50,11 @@
  where d.dept_name = 'Sales' or d.dept_name = 'Development'
  
  --In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
+ select count(last_name), last_name
+ from employees
+ group by last_name
+ order by count desc
 
  
- 
- 
- 
- 
- select * from dept_manager
- inner join dept_manager on dept_manager.dept_no = departments.dept_no
 
  
