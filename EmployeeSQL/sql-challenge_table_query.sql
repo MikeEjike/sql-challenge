@@ -25,5 +25,5 @@ hire_date date
 )
 create table dept_emp(
 emp_no int,
-dept_no int
+dept_no varchar(50)
 )
